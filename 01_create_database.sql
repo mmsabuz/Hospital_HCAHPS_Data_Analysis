@@ -1,1 +1,0 @@
-SELECT TOP 100 * FROM vw_HCAHPS_Cleaned;
