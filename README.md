@@ -9,7 +9,7 @@ This project presents an end-to-end data analytics solution using **SQL Server (
 - **Database Management:** Microsoft SQL Server / SQL Server Management Studio (SSMS)
 - **Data Transformation:** T-SQL (Views, Data Type Casting, Data Cleaning)
 - **Business Intelligence & Visualization:** Power BI Desktop
-- **Data Source:** HCAHPS Hospital Survey Dataset (`.xlsx`)
+- **Data Source:** HCAHPS Hospital Survey Dataset (`.zip`)
 
 ---
 
@@ -17,16 +17,24 @@ This project presents an end-to-end data analytics solution using **SQL Server (
 ```text
 Hospital_HCAHPS_Data_Analysis/
 │
-├── 01_Data/
-│   └── HCAHPS_Cleaned_Data.xlsx
+├── Data/
+│   └── HCAHPS_Cleaned_Data.zip
 │
-├── 02_Documentation/
-│   └── HCAHPS_SQL_Cleaning_and_PowerBI_Guide.xlsx
-│
-├── 03_SQL_Scripts/
+├── SQL_Scripts/
 │   ├── 01_create_database.sql
 │   ├── 02_create_cleaned_view.sql
 │   └── 03_test_data.sql
 │
-└── 04_PowerBI/
-    └── (Dashboard Screenshots & Visuals)
+├── Power_BI/
+│   └── Hospital_Patient_Satisfaction_Dashboard.pbix
+│
+├── Screen_Shots/
+│   ├── KPI cards.png
+│   ├── Slicers sate.png
+│   ├── State Performance Bar Chart.png
+│   ├── Survey Question Breakdown.png
+│   ├── Total surveys.png
+│   ├── avg response rate.png
+│   └── avg start rating.png
+│
+└── README.md
